@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link type="text/css" rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Your Address</legend>
+            <div class="form-flex">
+                <label>First name</label>
+                <input type="text" name="firstname" required>
+            </div>
+            <div class="form-flex">
+                <label>Last name</label>
+                <input type="text" name="lastname" required>
+            </div>
+            <div class="form-flex">
+                <label>Street</label>
+                <input type="text" name="Street" required> 
+            </div>
+            <div class="form-flex">
+                <label>City</label>
+                <input type="text" name="city" required>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Additional details</legend>
+            <div class="form-flex">
+                <label>Biography</label>
+                <textarea></textarea>
+            </div>
+            <div class="form-flex">
+                <label>Image</label>
+                <input type="file" name="file" required>
+            </div>
+            <div class="form-flex">
+                <label>Age Group</label>
+                <select>
+                    <option>0 to 9 years</option>
+                    <option>10 to 19 years</option>
+                    <option>20 to 29 years</option>
+                    <option>30 to 39 years</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Interests</legend>
+            <div class="form-flex">
+                <label>Hobbies</label>
+                <textarea></textarea><br>
+            </div>
+            <div class="form-flex">
+                <label>Favourite car?</label>
+                <textarea></textarea><br>
+            </div>
+            <div class="form-flex">
+                <label>Favourite public transport?</label>
+                <textarea></textarea><br>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

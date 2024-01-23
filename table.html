@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <!-- <table border="1">
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th colspan="2">Seminar</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th colspan="2">Schedule</th>
+                <th>Topic</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>Monday</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+        </tr>
+    </table> -->
+    <table border="1">
+        <col>
+        <colgroup span="2"></colgroup>
+        <colgroup span="2"></colgroup>
+        <tr>
+            <th rowspan="2">Day</th>
+            <th colspan="2" scope="colgroup">Seminar</th>
+        </tr>
+        <tr> 
+            <th rowspan="2" scope="colgroup">Schedule</th>
+            <th 
+            scope="col">Topic</th>
+        </tr>
+        <tr>
+            <th scope="col">Monday</th>
+            <th scope="col"></th>
+        </tr>
+        <tr>
+            <th scope="row">Tuesday</th>  
+        </tr>
+        <tr>
+            <th scope="row">Wednesday</th>
+        </tr>
+    </table>
+</body>
+</html>
